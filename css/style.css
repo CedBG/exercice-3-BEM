@@ -1,0 +1,39 @@
+
+/* header */
+
+.header__h1 {
+    height: 50px;
+    color: white;
+    background-color: rgb(115, 114, 114);
+    line-height: 70px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.nav {
+    background: lightgrey;
+    height: 25px;
+}
+
+.nav__a {
+    color: white;
+    padding-right: 20px;
+    padding-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    padding-top: 8px;
+}
+
+/* main */
+
+.main {
+    display: flex;
+}
+
+/* aside */
+
+
+
+
