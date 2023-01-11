@@ -11,8 +11,14 @@
 }
 
 .nav {
+    display: flex;
     background: lightgrey;
     height: 25px;
+}
+
+.nav__ul {
+    display: flex;
+    padding-top: 8px;
 }
 
 .nav__a {
@@ -21,15 +27,27 @@
     padding-left: 50px;
 }
 
-nav ul {
-    display: flex;
-    padding-top: 8px;
-}
-
 /* main */
 
 .main {
     display: flex;
+}
+
+/* section */
+
+.section {
+    border-left: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+}
+
+.section1 {
+    height: 50px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.section__.link {
+    color: lightgray;
 }
 
 /* aside */
